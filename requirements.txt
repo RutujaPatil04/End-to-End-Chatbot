@@ -1,0 +1,14 @@
+#Quantized models are lighter, but they still need efficient runtime libraries to
+#fully realize their speed advantage. ctransformers provides optimizations that 
+#leverage quantized formats, making inference faster, particularly on CPUs.
+
+ctransformers==0.25
+#To download model and embedding model from hugging face
+sentence-trasformers==2.2.2
+# Using pincone for vector DB
+pinecone-client
+#framework
+langchain==0.0.225
+#frontend
+flask
+
